@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class=main>
+        <form action="03personalizacao.php" method="get">
+            <label for="text">Text: </label>
+            <input type="text" name="text" id="text">
+            <br>
+            <label for="size">Tamanho</label>
+            <select name="size" id="size">
+                <option value="1.4rem">1.4</option>
+                <option value="1.8rem" selected>1.8</option>
+                <option value="2.2rem">2.2</option>
+                <option value="3.0rem">3.0</option>
+            </select>
+            <br>
+            <label for="cor">Color: </label>
+            <input type="color" name="cor" id="cor">
+            <br>
+            <button type="submit">Submit!</button>
+        </form>
+    </div>
+</body>
+</html>

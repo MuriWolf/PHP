@@ -1,0 +1,13 @@
+Explicação oq esses tres arquivos fazem:
+
+Login.php:
+
+starta o session
+quando o botao de submit é clicado, ele valida o email
+compara o email enviado com o uma constante onde esta o email correto, se verdadeiro vai para o admin, se falso da erro
+
+admin:
+verifica se esta realmente logado, faz isso vendo se existe o email no session, se nao vai para o login
+
+logout:
+limpa o session e o apaga

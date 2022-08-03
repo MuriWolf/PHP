@@ -1,0 +1,47 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.0rem;
+    color: rgb(19, 19, 19);
+    background-image: linear-gradient(to right, rgb(67, 25, 112), rgb(47, 25, 112), rgb(26, 64, 136));
+}
+
+.main {
+    width: 80%;
+    max-width: 1440px;
+    min-height: 380px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+.hightlight {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: rgb(210, 20, 20);
+}
+
+.botao {
+    padding: 0.5em 1em;
+    margin-top: 2em;
+    border: none;
+    background-color: rgb(47, 25, 112);
+    color: white;
+    transition: all 0.35s;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.486);
+}
+
+.botao:hover {
+    background-color: rgb(26, 64, 136);
+}
