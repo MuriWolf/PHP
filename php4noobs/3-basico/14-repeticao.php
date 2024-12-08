@@ -2,9 +2,11 @@
 
 use Classes\Person;
 
-require("./classes/Person.class.php");
+require "../classes/Person.class.php";
 
-$newPerson = new Person("murillo", 18);
+$newPerson = new Person();
+$newPerson->name = "unknown";
+$newPerson->age = 0;
 
 var_dump($newPerson);
 var_dump($newPerson->greet());
